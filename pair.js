@@ -16,14 +16,8 @@ const { MongoClient } = require('mongodb');
 const {
   default: makeWASocket,
   useMultiFileAuthState,
-  delay,
-  getContentType,
-  makeCacheableSignalKeyStore,
-  Browsers,
-  jidNormalizedUser,
-  downloadContentFromMessage,
-  DisconnectReason
-} = require('baileys');
+  ...
+} = require('@whiskeysockets/baileys');
 
 // ---------------- CONFIG ----------------
 const BOT_NAME_FREE = '𝙵𝙼-𝚇-𝙰𝙱𝙳-𝙼𝙳-𝙼𝙸𝙽𝙸';
