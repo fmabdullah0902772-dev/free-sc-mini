@@ -14,10 +14,6 @@ const fetch = require('node-fetch');
 const { MongoClient } = require('mongodb');
 
 const {
-  default: makeWASocket,
-  useMultiFileAuthState,
-  ...
-const {
     default: makeWASocket,
     useMultiFileAuthState,
     DisconnectReason,
