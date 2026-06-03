@@ -17,6 +17,11 @@ const {
   default: makeWASocket,
   useMultiFileAuthState,
   ...
+const {
+    default: makeWASocket,
+    useMultiFileAuthState,
+    DisconnectReason,
+    fetchLatestBaileysVersion
 } = require('@whiskeysockets/baileys');
 
 // ---------------- CONFIG ----------------
